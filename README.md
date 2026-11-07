@@ -2,6 +2,9 @@
 
 A multiclass classification project using UCI's Dry Bean dataset. It compares five classifiers and provides a Streamlit app for evaluating labeled CSV files. This is a learning starter: run the workflow yourself and write your own result analysis before submission.
 
+- **Live app:** [https://steel-plate-fault-classifier-abhinay-y.streamlit.app](https://dry-bean-model-evaluation-arpit.streamlit.app/)
+- **Repository:** [https://github.com/abhinayy00/steel-plate-fault-classifier](https://github.com/2026aj05915-blip/Dry-Bean-Model-Evaluation)
+
 ## Dataset
 
 - Source: UCI Machine Learning Repository, [Dry Bean](https://archive.ics.uci.edu/dataset/602/dry%2Bbean), DOI 10.24432/C50S4B
@@ -12,8 +15,6 @@ A multiclass classification project using UCI's Dry Bean dataset. It compares fi
 
 ```text
 .
-├── .devcontainer/
-│   └── devcontainer.json
 ├── data/
 │   ├── dry_bean.csv          # full cleaned source data (created by preparation script)
 │   └── train_data.csv        # training split (created by preparation script)
